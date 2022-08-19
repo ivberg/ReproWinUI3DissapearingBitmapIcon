@@ -1,0 +1,22 @@
+﻿<Window
+    x:Class="ReproWinUI3DissapearingBitmapIcon.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReproWinUI3DissapearingBitmapIcon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <CommandBar Background="Transparent" IsOpen="False" DefaultLabelPosition="Bottom" OverflowButtonVisibility="Collapsed" HorizontalAlignment="Right" >
+        <AppBarButton>
+            <AppBarButton.Icon >
+                <BitmapIcon UriSource="ms-appx:///Assets/FeedbackHubAppList.targetsize-40.png" ShowAsMonochrome="False" />
+            </AppBarButton.Icon>
+        </AppBarButton>
+        <AppBarButton>
+            <AppBarButton.Icon>
+                <BitmapIcon UriSource="ms-appx:///Assets/WPA_32x32.png" ShowAsMonochrome="False" />
+            </AppBarButton.Icon>
+        </AppBarButton>
+    </CommandBar>
+</Window>

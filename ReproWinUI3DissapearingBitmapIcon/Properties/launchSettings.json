@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ReproWinUI3DissapearingBitmapIcon (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ReproWinUI3DissapearingBitmapIcon (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
